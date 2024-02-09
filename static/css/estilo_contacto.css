@@ -1,0 +1,35 @@
+img{
+    width: 15em;
+}
+
+.seccion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 30px 30px;
+
+}
+
+.seccion__div{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    border-radius: 40px;
+    place-items: center;
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+    transition: 0.5s;
+}
+
+.seccion__div:hover{
+    transform: scale(1.06);
+    box-shadow: 4.0px 8.0px 20px rgba(223, 221, 221, 0.38);
+    transition: 0.5s;
+
+}
+
+h2{
+    font-size: 30px;
+}

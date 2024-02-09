@@ -1,0 +1,143 @@
+.img1 {
+    width: 20em;
+    height: 20em;
+    border-radius: 100%;
+    margin: 0;
+    position: relative;
+
+    left: 20%;
+    margin: 5px;
+}
+
+.img1:hover {
+    box-shadow: 5px 5px 15px rgba(255, 250, 250, 0.635);
+    transition: all 0.3s ease;
+}
+
+.seccion1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+/* CSS */
+.boton1 {
+    position: absolute;
+    left: 50%;
+    margin-top: 1em;
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    user-select: none;
+
+}
+
+.boton1:hover {
+    background-color: #fff;
+}
+
+.boton1:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+
+h1 {
+    text-align: center;
+    color: bisque;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: rgb(238, 106, 108);
+    color: linear-gradient(90deg, rgba(238, 106, 108, 0.1741071428571429) 0%, rgba(244, 242, 205, 1) 96%);
+    text-shadow: 2px 2px 4px rgba(169, 24, 24, 0.64);
+    transform: scale(0.9);
+
+}
+
+.seccion1_contenedor1 {
+    margin: 20px;
+}
+
+.seccion1_contenedor2 {
+    display: flex;
+    justify-content: center;
+    /* Centra el contenido en el centro */
+    align-items: center;
+    /* Centra verticalmente */
+
+}
+
+
+.seccion1_contenedor2--img {
+    position: relative;
+    bottom: 75px;
+}
+
+/*Boton*/
+.subtitulo {
+    position: relative;
+    margin: 13px;
+    padding: 1em;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    /* Quitamos el color de fondo */
+    color: wheat;
+    border: none;
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+
+
+/*span*/
+.subtitulo span {
+    position: absolute;
+    background: rgb(21, 25, 28);
+    background: linear-gradient(90deg, rgba(21, 25, 28, 1) 0%, rgba(0, 184, 167, 0.87718837535014) 84%);
+    height: 4px;
+    width: 400px;
+    bottom: 1%;
+    right: 100%;
+    transition: 0.5s;
+}
+
+/*spam boton*/
+.subtitulo:hover span {
+    right: 0%;
+}
+
+
+
+.infoAdicional {
+    margin-left: 15px;
+    display: none;
+    padding: 10px;
+    width: 95%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(29, 29, 29, 0.491) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.infoAdicional p {
+
+    font-size: 20px;
+    color: rgb(231, 224, 198);
+}

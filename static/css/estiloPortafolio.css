@@ -1,0 +1,92 @@
+
+body{
+    box-sizing: border-box;
+
+}
+
+img{
+    margin-top: 25px;
+    width: 550px;
+}
+
+h1{
+    text-align: center;
+    color: bisque;
+    transition: 0.3s;
+}
+
+h1:hover{
+color: rgb(238,106,108);
+color: linear-gradient(90deg, rgba(238,106,108,0.1741071428571429) 0%, rgba(244,242,205,1) 96%);
+text-shadow: 2px 2px 4px rgba(169, 24, 24, 0.64);
+transform: scale(0.9);
+
+}
+
+a{
+    text-decoration: none;
+    color: bisque;
+}
+
+
+
+
+.articulo__seccion{
+    margin: 5px 25px;
+    max-width: 96vw;
+    height: 65vh;
+    padding: 0;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 25px;
+    overflow: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+
+}
+
+.articulo__seccion--div{
+    margin: 0px;
+    padding: 0px;
+    width: 47vw;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    place-items: center;
+    border-radius: 50px;
+    border-radius: 39px;
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+}
+.articulo__seccion--div:hover{
+    transform: scale(0.97);
+    box-shadow: 4.0px 8.0px 20px rgba(223, 221, 221, 0.20);
+    transition: 0.5s;
+
+}
+
+
+/* Estilo para la barra de desplazamiento */
+.articulo__seccion::-webkit-scrollbar {
+   /* width: 50px;/* Ancho de la barra de desplazamiento vertical */
+    height: 12PX;
+}
+
+/* Estilo para el pulgar (la parte que se arrastra) de la barra de desplazamiento */
+.articulo__seccion::-webkit-scrollbar-thumb {
+    background: rgb(221,219,175);
+    background: linear-gradient(90deg, rgba(221,219,175,0.4766281512605042) 0%, rgba(237,235,177,1) 100%);
+    border-radius: 50px; /* Bordes redondeados */
+
+}
+.articulo__seccion::-webkit-scrollbar-thumb:hover {
+    background-color: RED;
+}
+
+/* Estilo para el fondo de la barra de desplazamiento */
+.articulo__seccion::-webkit-scrollbar-track {
+    background-color:transparent; /* Color de fondo */
+}
+
+
+
+

@@ -1,0 +1,66 @@
+/*reglas que se aplican al cuerpo de nuetra pagina*/
+body {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background: rgb(21,25,28);
+    background: linear-gradient(90deg, rgba(21,25,28,1) 0%, rgba(29,30,32,1) 47%);
+    display: grid;
+    min-height: 100vh; /* Asegurar que el contenido ocupe al menos la altura completa de la ventana */
+    grid-template-rows: 3em 1fr auto;
+}
+
+
+
+.cabecera {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.cabecera nav ul{
+    list-style: none;
+ }   
+ 
+.cabecera nav li{
+    display: inline-block;
+    padding: 10px 60px;
+    text-decoration: none;
+   }
+   
+   .cabecera nav ul li:hover{
+   transform: scale(1.2);
+   }
+   
+   .cabecera nav ul li a:hover{
+       color: #FFFFFF
+       
+   }
+   
+   header nav a{
+       font-size: 700;
+       color: #ECECC2;
+       text-decoration: none;
+   }
+
+   
+
+
+   /*footore*/
+.pie{
+    background-color: black;
+    padding: 0em 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+ 
+}

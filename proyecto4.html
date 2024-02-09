@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/normalize.css">
+    <link rel="stylesheet" href="./static/css/barraDisposicion.css">
+    <link rel="stylesheet" href="./static/css/estiloProyectos.css">
+    <script src="./static/js/despliegue.js"></script>
+    <title>Proyecto 4</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./infoPersonal.html">Sobre mi</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./portafolio_George_Moises_Vasquez_Quiche.html">Portafolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>BITACORIZACION DE BASE DE DATOS</h1>
+        <section id="contenedor">
+            <div class="contenedor__video">
+                <video src="./media/videos/proyecto4.mp4" controls></video>
+            </div>
+
+
+            <section class="section__descripcion">
+                <button class="subtitulo"><span></span>DESCRIPCION</button>
+                <div class="infoAdicional">
+                    <p>
+                        En este proyecto, exploraremos la implementación de una solución de bitacorización en SQL Server
+                        que
+                        permitirá el monitoreo detallado de las operaciones CRUD (Crear, Leer, Actualizar, Eliminar)
+                        realizadas por
+                        los usuarios en las tablas de una base de datos. Utilizaremos C# para desarrollar un pequeño
+                        programa que
+                        demuestre el funcionamiento de esta solución, permitiendo a los usuarios interactuar con las
+                        tablas
+                        y
+                        observar cómo se registran las acciones en la bitácora.
+                    </p>
+
+                    <p>
+                        La bitacorización es fundamental para mantener la seguridad y la trazabilidad de las acciones
+                        realizadas en
+                        una base de datos. En este proyecto, implementaremos una solución que rastrea las operaciones
+                        CRUD,
+                        creando
+                        un registro de cada acción para fines de auditoría y seguimiento.
+                    </p>
+
+                    <h4>descripcion del proyecto:</h4>
+                    <ol>
+                        <li>
+                            <h5>Configuración de Bitacorización</h5>
+                            <p> Implementaremos una opción para activar y desactivar la bitacorización para una tabla
+                                específica.
+                                Cuando esté activada, se registrarán las acciones CRUD realizadas por los usuarios.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h5>Implementación de Triggers:</h5>
+                            <p>
+                                Uso triggers en SQL Server para capturar las operaciones CRUD. Los triggers se activarán
+                                automáticamente cuando ocurran acciones en la tabla y registrarán los detalles de la
+                                acción
+                                en una
+                                tabla de bitácora.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h5>Procedimientos Almacenados:</h5>
+                            <p>
+                                Crearemos procedimientos almacenados para realizar operaciones CRUD en las tablas. Estos
+                                procedimientos serán utilizados por la interfaz de usuario en C# para interactuar con la
+                                base de
+                                datos.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h5>Registro de Bitácora:</h5>
+                            <p>
+                                Cada vez que un usuario realice una operación CRUD, se registrará en una tabla de
+                                bitácora,
+                                incluyendo el tipo de acción, la fecha y hora, el usuario responsable y detalles
+                                adicionales.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="tecnologia">
+                <button class="subtitulo"><span></span>TECNOLOGIA USADO</button>
+                <div class="infoAdicional">
+                    <ul>
+                        <li>
+                            <h4>C#</h4>
+                        </li>
+                        <li>SQL SERVER</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </article>
+
+    <footer class="pie"> 
+        <p>George Moisés Vásquez Quiché</p>
+        <p>vasquezmgv@outlook.com</p>
+        <p>Santa Lucía Utatlán, Sololá, Guatemala</p>       
+    </footer>
+
+</body>
+
+</html>
